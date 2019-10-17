@@ -14,6 +14,7 @@
 		BD1FB6962358DA63007BB675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1FB6952358DA63007BB675 /* Assets.xcassets */; };
 		BD1FB6992358DA63007BB675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1FB6972358DA63007BB675 /* LaunchScreen.storyboard */; };
 		BD1FB69C2358DA63007BB675 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1FB69B2358DA63007BB675 /* main.m */; };
+		BD1FB6A42358DA89007BB675 /* LSIImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1FB6A32358DA89007BB675 /* LSIImageOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		BD1FB6982358DA63007BB675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD1FB69A2358DA63007BB675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD1FB69B2358DA63007BB675 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD1FB6A22358DA89007BB675 /* LSIImageOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIImageOperation.h; sourceTree = "<group>"; };
+		BD1FB6A32358DA89007BB675 /* LSIImageOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIImageOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				BD1FB68D2358DA61007BB675 /* SceneDelegate.m */,
 				BD1FB68F2358DA61007BB675 /* ViewController.h */,
 				BD1FB6902358DA61007BB675 /* ViewController.m */,
+				BD1FB6A22358DA89007BB675 /* LSIImageOperation.h */,
+				BD1FB6A32358DA89007BB675 /* LSIImageOperation.m */,
 				BD1FB6922358DA61007BB675 /* Main.storyboard */,
 				BD1FB6952358DA63007BB675 /* Assets.xcassets */,
 				BD1FB6972358DA63007BB675 /* LaunchScreen.storyboard */,
@@ -148,6 +153,7 @@
 			files = (
 				BD1FB6912358DA61007BB675 /* ViewController.m in Sources */,
 				BD1FB68B2358DA61007BB675 /* AppDelegate.m in Sources */,
+				BD1FB6A42358DA89007BB675 /* LSIImageOperation.m in Sources */,
 				BD1FB69C2358DA63007BB675 /* main.m in Sources */,
 				BD1FB68E2358DA61007BB675 /* SceneDelegate.m in Sources */,
 			);
