@@ -10,9 +10,9 @@
 #import "LSIColorController.h"
 
 // 64-bit pointer (8 bytes)
-void *colorContext = &colorContext;  // Unique value that we can test against
-void *textColorContext = &textColorContext;  // 0x00000001055417b8
-void *colorContext2 = @"color"; // "CellIdentifier"
+void *colorContext = &colorContext; // "CellIdentifier" - Unique value that we can use
+//void *textColorContext = &textColorContext;  // 0x00000001055417b8
+//void *colorContext2 = @"color";	// Doesn't work! Crashes (WHY?)
 
 @interface ViewController ()
 
@@ -43,8 +43,6 @@ void *colorContext2 = @"color"; // "CellIdentifier"
 
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
-	
-	NSLog(@"observed a change: %@", keyPath);
 	
 	if (context == colorContext) {
 		
