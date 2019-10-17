@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LSIPerson : NSObject
 
-@property NSString *name;
+@property (copy) NSString *name;
 
 - (instancetype)initWithName:(NSString *)name;
 
