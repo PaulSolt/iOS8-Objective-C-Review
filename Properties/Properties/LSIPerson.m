@@ -10,10 +10,19 @@
 
 @implementation LSIPerson
 
+
+// 2. Always copy in your initializers
 - (instancetype)initWithName:(NSString *)name {
 	if (self = [super init]) {
 		_name = [name copy]; // immutable copy
 	}
 	return self;
 }
+
+// 3. always copy in setter
+- (void)setName:(NSString *)name {
+//	_name = name; // BUG not copying!!!
+	_name = [name copy];
+}
+
 @end

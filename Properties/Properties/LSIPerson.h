@@ -12,9 +12,24 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LSIPerson : NSObject
 
+// RULE: always use copy with NSString to prevent side effects
+
+// 1. Use copy with your property
 @property (copy) NSString *name;
 
+
+
+
+
+
+
+
+
+
+
+
 - (instancetype)initWithName:(NSString *)name;
+
 
 @end
 
