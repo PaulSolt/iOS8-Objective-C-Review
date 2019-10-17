@@ -15,17 +15,35 @@ NS_ASSUME_NONNULL_BEGIN
 // RULE: always use copy with NSString to prevent side effects
 
 // 1. Use copy with your property
-@property (copy) NSString *name;
+@property (nonatomic, copy) NSString *name;
 
+/*
+ 
+ // Manual Reference Counting (MRC)
+ 
+ retain (+1)
+ copy (+1)
+ assign (DEFAULT)
+ unsafe_unretained
 
+ // Automatic Reference Counting (ARC)
 
+ strong (DEFAULT)
+ copy
+ weak
+ 
+ readwrite (DEFAULT)
+ readonly
+ 
+ nonatomic
+ atomic (DEFAULT)
+ 
+ setter=methodName
+ getter=methodName
+ */
 
-
-
-
-
-
-
+@property (getter=isFinished) BOOL finished;
+//@property BOOL finished;
 
 
 - (instancetype)initWithName:(NSString *)name;

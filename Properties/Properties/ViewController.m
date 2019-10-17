@@ -48,6 +48,12 @@
 	// Object Oriented Programming
 	// Swift + Objective-C: Object Oriented Programming Languages
 	// C: Procedural programming language (functions)
+	
+	
+	BOOL didFinish = dave.isFinished;
+	BOOL didFinish2 = dave.finished;
+
+	
 }
 
 

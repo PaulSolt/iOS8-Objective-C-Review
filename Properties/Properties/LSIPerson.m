@@ -25,4 +25,13 @@
 	_name = [name copy];
 }
 
+
+// MRC
+//- (void)setName:(NSString *)name {
+//	if (name != _name) {
+//		[_name release];
+//		_name = [name copy];
+//	}
+//}
+
 @end
