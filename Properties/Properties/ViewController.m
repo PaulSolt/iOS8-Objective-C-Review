@@ -21,13 +21,15 @@
 
 
 	NSString *daveString = @"Dave";
-	
 	LSIPerson *dave = [[LSIPerson alloc] initWithName: daveString];
-
 
 	printf("daveString: %s\n", daveString.UTF8String);
 	printf("dave.name: %s\n", dave.name.UTF8String);
 
+	dave.name = @"David";
+	
+	printf("daveString: %s\n", daveString.UTF8String);
+	printf("dave.name: %s\n", dave.name.UTF8String);
 
 }
 
