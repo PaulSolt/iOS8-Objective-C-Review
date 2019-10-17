@@ -14,6 +14,7 @@
 		BD1FB66E2358CC00007BB675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1FB66D2358CC00007BB675 /* Assets.xcassets */; };
 		BD1FB6712358CC00007BB675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1FB66F2358CC00007BB675 /* LaunchScreen.storyboard */; };
 		BD1FB6742358CC00007BB675 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1FB6732358CC00007BB675 /* main.m */; };
+		BD1FB67C2358CC1C007BB675 /* LSIPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1FB67B2358CC1C007BB675 /* LSIPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		BD1FB6702358CC00007BB675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD1FB6722358CC00007BB675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD1FB6732358CC00007BB675 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD1FB67A2358CC1C007BB675 /* LSIPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIPerson.h; sourceTree = "<group>"; };
+		BD1FB67B2358CC1C007BB675 /* LSIPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				BD1FB6622358CBFE007BB675 /* AppDelegate.m */,
 				BD1FB6642358CBFE007BB675 /* SceneDelegate.h */,
 				BD1FB6652358CBFE007BB675 /* SceneDelegate.m */,
+				BD1FB67A2358CC1C007BB675 /* LSIPerson.h */,
+				BD1FB67B2358CC1C007BB675 /* LSIPerson.m */,
 				BD1FB6672358CBFE007BB675 /* ViewController.h */,
 				BD1FB6682358CBFE007BB675 /* ViewController.m */,
 				BD1FB66A2358CBFE007BB675 /* Main.storyboard */,
@@ -150,6 +155,7 @@
 				BD1FB6632358CBFE007BB675 /* AppDelegate.m in Sources */,
 				BD1FB6742358CC00007BB675 /* main.m in Sources */,
 				BD1FB6662358CBFE007BB675 /* SceneDelegate.m in Sources */,
+				BD1FB67C2358CC1C007BB675 /* LSIPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LSIPerson.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,18 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	// Do any additional setup after loading the view.
+
+
+
+	NSString *daveString = @"Dave";
+	
+	LSIPerson *dave = [[LSIPerson alloc] initWithName: daveString];
+
+
+	printf("daveString: %s\n", daveString.UTF8String);
+	printf("dave.name: %s\n", dave.name.UTF8String);
+
+
 }
 
 
